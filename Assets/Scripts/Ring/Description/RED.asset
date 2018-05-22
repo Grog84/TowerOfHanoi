@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3cff60fe67fac4793c6e2ca5a30ae6, type: 3}
+  m_Name: RED
+  m_EditorClassIdentifier: 
+  color: 3
+  speed: 35
+  rotationSpeed: 10
+  inertia: 150
+  front: {fileID: 21300000, guid: 2c163a09091094d449bd91e3c9cfcd8a, type: 3}
+  back: {fileID: 21300000, guid: 8a67408fffd0c11438cf05463d9f05cf, type: 3}
+  frontGlow: {fileID: 21300000, guid: 405003cad64d9f24ea1d5b38ad74552b, type: 3}
+  backGlow: {fileID: 21300000, guid: 98256a684e17e1b4b9061e67a9bf3d37, type: 3}
+  Expressions:
+  - {fileID: 21300000, guid: 634101adbc4f71847baea6093d7efc38, type: 3}
+  - {fileID: 21300000, guid: 19a863a1b54472e4a9de07981c0d9991, type: 3}
+  - {fileID: 21300000, guid: 64f7f6aa42eea6740915ffbea2cb81d5, type: 3}
